@@ -1,0 +1,34 @@
+
+Maven is build management tool
+Maven is Project management tool
+
+
+To Run Maven Project
+======================
+1.Using Pom.xml file
+2.Using CLI 
+3.Using Jenkins
+
+Maven+Git+Jenkins
+
+
+Prerequisite
+==================
+1.install Maven on local machine
+2.Plugin 
+	1.Surefire plugin
+	2.Compiler Plugin
+	
+	
+Maven Goals
+=================
+1.Clean: delete files from target folder
+2.test: for testing
+3.install: files get install and then test
+
+
+
+
+
+	
+	
