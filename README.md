@@ -1,0 +1,21 @@
+- This is an e-commerce application where we can login using with given data
+- In this application total five modules are there 
+1. Login 
+2. Inventory 
+3. Add to cart 
+4. Checkout 
+5. Overview 
+
+- Implemented page object model using By locators and created a base class along with test cases.
+- This project includes extent reports along with the Maven ,testNG configuration 
+
+Explanation : 
+Step 1 : Create a project and add required dependencies 
+Step 2 : Create folder structure for pages , test cases and utilities. 
+Step 3 : Create page objects for every single modules (initialization of driver + locators + methods)
+Step 4 : Create a base class add before test annotation for launch application and create an object of every page in this base class.
+Step 5 : Create a test case and extends base class 
+Step 6 : Create utility and properties file with property utility to hide hard coded values.
+Step 7 : Add maven (surefire and compiler) plugins .
+Step 8 : Create project xml file and give the path in surefire plugin.
+Step 9 : Run project using SwagLabs.xml file another way is using maven (pom.xml).
